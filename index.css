@@ -1,6 +1,11 @@
 body a {
   text-decoration: none;
 }
+
+body li {
+  list-style: none;
+}
+
 .titulo {
   text-align: center;
   color: blue;
