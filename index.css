@@ -21,3 +21,36 @@ body li {
   display: block;
   margin: auto;
 }
+
+.derecha {
+  text-align: center;
+}
+
+.div1 {
+  color: green;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: solid;
+}
+
+.tabla {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ff33cc;
+}
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+tbody tr {
+  background-image: url(noise.png);
+}
+
+table {
+  background-color: #23d16c;
+}
